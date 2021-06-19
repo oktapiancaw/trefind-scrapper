@@ -23,13 +23,12 @@
   Beberapa hal yang perlu di persiapkan untuk aplikasi ini yaitu :
 
 1. Youtube Data Api <br/>
-2. Requests library
+2. Beberapa library
  <br/>
 
 ```sh
-  pip install requests
+  pip install requests urllib
 ```
-<br/>
 
 ## Usage
 Berikut tata cara penggunaan nya
