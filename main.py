@@ -15,7 +15,11 @@ def prepare_feature(feature):
   return f"{feature}"
 
 def api_request():
-  api_key = "AIzaSyAt5GW012pwEGUfF5qiqiqTUpVQx2vczfE"
+
+  # Masukan Youtube Data API nya disini
+  api_key = "GoogleApiMu"
+
+
   request_url = f"https://www.googleapis.com/youtube/v3/videos?part=id,statistics,snippet&chart=mostPopular&regionCode=ID&maxResults=20&key={api_key}"
   request = requests.get(request_url)
   if request.status_code == 429:
