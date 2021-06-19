@@ -10,7 +10,6 @@
 <br/>
 
 ## Installation
-<hr/>
 <br/>
   Clone Repository ini ke komputer anda dengan cara
 <br/>
@@ -21,7 +20,6 @@
 <br/>
 
 ## Requirement
-<hr/>
   Beberapa hal yang perlu di persiapkan untuk aplikasi ini yaitu :
 
 1. Youtube Data Api <br/>
@@ -34,7 +32,6 @@
 <br/>
 
 ## Usage
-<hr/>
 Berikut tata cara penggunaan nya
 
 1. Masukan Google Api kamu di file main.py pada line 20
@@ -44,6 +41,7 @@ Berikut tata cara penggunaan nya
 ```sh
   python main.py
 ```
+<br/>
 
 ## Reference
 
