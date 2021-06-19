@@ -19,8 +19,10 @@ def api_request():
   # Masukan Youtube Data API nya disini
   api_key = "GoogleApiMu"
 
+  # Jumlah data yang diinginkan
+  count_data = 20
 
-  request_url = f"https://www.googleapis.com/youtube/v3/videos?part=id,statistics,snippet&chart=mostPopular&regionCode=ID&maxResults=20&key={api_key}"
+  request_url = f"https://www.googleapis.com/youtube/v3/videos?part=id,statistics,snippet&chart=mostPopular&regionCode=ID&maxResults={count_data}&key={api_key}"
   request = requests.get(request_url)
   if request.status_code == 429:
     print("Temp-Banned due to excess requests, please wait and continue later")
