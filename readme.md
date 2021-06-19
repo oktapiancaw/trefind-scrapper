@@ -33,8 +33,8 @@
 ## Usage
 Berikut tata cara penggunaan nya
 
-1. Masukan Google Api kamu di file main.py pada line 20
-2. Jumlah data yang di inginkan, di file main.py pada line 23
+1. Masukan Google Api kamu di file [main.py](main.py) pada line 20
+2. Jumlah data yang di inginkan, di file [main.py](main.py) pada line 23
 3. Buat virtual envoriment atau langsung jalan aplikasinya
 
 ```sh
